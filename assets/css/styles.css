@@ -1287,3 +1287,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.muslim_logo{
+    background-color: currentcolor;
+}
