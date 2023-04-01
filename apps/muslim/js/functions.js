@@ -72,7 +72,7 @@ function getData(){
     
 }
 
-
+var nextPrayerTime = null
 $( document ).ready(function() {
     var input_text = document.getElementById("locationText");
     var system24 = document.getElementById("use24Option");
@@ -111,7 +111,6 @@ function convertTime(time){
     return PrayerDate.toLocaleTimeString([],{hour12:true, hour: '2-digit', minute:'2-digit'})
 }
 
-
 let interval = null
 
 function checkTimeLeft(){
@@ -140,9 +139,10 @@ function calculateTimeLeft(){
     document.getElementById('minutesLeft').innerText = minutesValue;
     document.getElementById('secondsLeft').innerText = secondsValue;
   
-    if (difference < 0) {
+    if (nextPrayerTime < currentTime) {
       clearInterval(t);
       discountContainer.style.display = "none";
+      location.reload();
     }
 }
 
