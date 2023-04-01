@@ -140,7 +140,7 @@ function calculateTimeLeft(){
     document.getElementById('secondsLeft').innerText = secondsValue;
   
     if (nextPrayerTime < currentTime) {
-      clearInterval(t);
+      clearInterval(interval);
       discountContainer.style.display = "none";
       location.reload();
     }
