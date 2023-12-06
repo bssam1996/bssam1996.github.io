@@ -101542,7 +101542,7 @@ case 6:case 1:return A.F(q,r)
 case 2:return A.E(o,r)}})
 return A.G($async$dk,r)}}
 A.Dn.prototype={
-Y(){var s=A.aJc(A.a(["profile","email","id"],t.s)),r=$.bo,q=(r==null?$.bo=$.dd():r).d2(0,"[DEFAULT]")
+Y(){var s=A.aJc(A.a(["profile","email"],t.s)),r=$.bo,q=(r==null?$.bo=$.dd():r).d2(0,"[DEFAULT]")
 A.bG(q,$.d2(),!0)
 return new A.Jr(new A.uT(s,A.aJ2(new A.ct(q))),new A.b0(null,t.PK),null,null,B.j)}}
 A.Jr.prototype={
@@ -102258,7 +102258,7 @@ A.aGb.prototype={
 $1(a){return this.a},
 $S:140}
 A.mH.prototype={
-Y(){var s=A.aJc(A.a(["profile","email","id"],t.s)),r=$.bo,q=(r==null?$.bo=$.dd():r).d2(0,"[DEFAULT]")
+Y(){var s=A.aJc(A.a(["profile","email"],t.s)),r=$.bo,q=(r==null?$.bo=$.dd():r).d2(0,"[DEFAULT]")
 A.bG(q,$.d2(),!0)
 return new A.ZK(new A.uT(s,A.aJ2(new A.ct(q))),B.j)}}
 A.ZK.prototype={
@@ -102405,7 +102405,7 @@ G(a){var s=null,r=A.qG(s,s,s,!0,s,s,B.ajs),q=t.w,p=A.bz(a,s,q).w
 p=A.agt("assets/icons/main.png",s,A.bz(a,s,q).w.a.b/4.2,s,p.a.a)
 return A.pv(r,B.KS,A.cq(A.a([p,new A.OC("01011654326","bssam2012@gmail.com","bassam.hesham.mahmoud","Yummy 2","With Yummy, you can manage all your recipes instead of writing them on papers. Store them locally and choose what to store on cloud. Add and edit in user-friendly way with astonishing design.",B.i,B.ny,B.ny,B.Mn,s)],t.p),B.w,B.L,B.C),s,s,s)}}
 A.RZ.prototype={
-G(a){var s,r,q,p=null,o=4281350749,n=A.aJc(A.a(["profile","email","id"],t.s)),m=$.bo,l=(m==null?$.bo=$.dd():m).d2(0,"[DEFAULT]")
+G(a){var s,r,q,p=null,o=4281350749,n=A.aJc(A.a(["profile","email"],t.s)),m=$.bo,l=(m==null?$.bo=$.dd():m).d2(0,"[DEFAULT]")
 A.bG(l,$.d2(),!0)
 m=A.aJ2(new A.ct(l))
 s=m.ajT(m.guD().jY())
