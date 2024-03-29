@@ -1,68 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Muslim</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/countdown.css">
-    <link rel="icon" type="image/x-icon" href="../../assets/img/apps/muslim_main.png" class="muslim_logo">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="./">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Muslim guide for everyone">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="muslim">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>muslim</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "90247948";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 <body>
-
-<div id="dates_header" class="dates_header">
-  <div class="current_date_head">
-    <h2 class="current_date_month" id="current_date_month">Month</h1>
-    <h2 class="current_date_text" id="current_date_text">Current Date</h1>
-  </div>
-  <div class="muslim_logo_head">
-    <img class="muslim_head_image" src="../../assets/img/apps/muslim_main.png"> 
-  </div>
-  <div class="current_hijri_head">
-    <h2 class="current_hijri_month" id="current_hijri_month">Month</h1>
-    <h2 class="current_hijri_text" id="current_hijri_text">Current Hijri</h1>
-  </div>
-</div>
-<table id="table">
-    <thead>
-        <th>Prayer</th>
-        <th>Time</th>
-    </thead>
-</table>
-<div id="loading" class="loader_head loader"></div>
-
-<div class="timeleft-container">
-    <div class="countdown-timer">
-      <div class="group">
-        <div id="hoursLeft" class="value hours">00</div>
-        <div class="unit">Hrs</div>
-      </div>
-
-      <div class="group">
-        <div id="minutesLeft" class="value minutes">00</div>
-        <div class="unit">Min</div>
-      </div>
-
-      <div class="group">
-        <div id="secondsLeft" class="value seconds">00</div>
-        <div class="unit">Sec</div>
-      </div>
-    </div>
-</div>
-<div class="headerOptions">
-  <div class="options">
-    <input type="text" id="locationText" value="" placeholder="Your Location...">
-  </div>
-  <div class="options">
-    <button id="getTimesButton" onclick="getData()">Get Times</button>
-  </div>
-  <div class="hour24div options">
-    <label class="toggle">
-        <input id="use24Option" class="toggle-checkbox" type="checkbox" onclick="change24Option()">
-        <div class="toggle-switch"></div>
-        <span class="toggle-label">24-Hour</span>
-    </label>
-  </div>
-</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="./js/functions.js"></script>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
