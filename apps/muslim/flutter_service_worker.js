@@ -3,9 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "63a20946c68171285727e610815c142e",
-"assets/AssetManifest.bin.json": "be9a2825ff6bf2a8cc7e8ed5de450731",
-"assets/AssetManifest.json": "ef43af0b64ea9a53b797fd1881cd2e52",
+const RESOURCES = {"assets/AssetManifest.bin": "0586276f438050436eaaa5875ae9a8da",
+"assets/AssetManifest.bin.json": "9b6efdd72b267d8aa00428d06fb3da7a",
+"assets/AssetManifest.json": "721fb2b84b3fd03af81407c07f995d61",
+"assets/assets/azkar/azkar.png": "f7d468cd4b703d21824e446a9856d477",
 "assets/assets/dua/dua.png": "6717c334d235da04e2892df6f838cd95",
 "assets/assets/fonts/jameel.ttf": "568aad362bde05424607b85ee5caece8",
 "assets/assets/fonts/Uthman-Taha-Naskh-Bold.otf": "0f0454a0c20831da475eef7c68b05b9b",
@@ -16,8 +17,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "63a20946c68171285727e610815c142e
 "assets/assets/qiblah/compass.svg": "5414969787686d65980d43544cc68397",
 "assets/assets/qiblah/needle.svg": "8899f282d1cf9118c8f4041ccf38d9ab",
 "assets/assets/quran/quran.png": "8e5a48fd1e5ee35404ff30f8051390b7",
-"assets/assets/translations/ar-EG.json": "68d6a9feaafd1d8c6ff4bdb5bd853869",
-"assets/assets/translations/en-US.json": "a4e55fe9a044adfd47e7be71f548898e",
+"assets/assets/translations/ar-EG.json": "9be9c8af6caf22b52381f19e6f105e95",
+"assets/assets/translations/en-US.json": "39f91a429d5881de31d979e13fd1747c",
 "assets/FontManifest.json": "7835a78c8c4539a57bf6535bd68b9702",
 "assets/fonts/MaterialIcons-Regular.otf": "6f7001f8f2699f810342f68c7b166699",
 "assets/NOTICES": "ff7ff4550572ed739e8337d5057ec2ef",
@@ -39,16 +40,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "63a20946c68171285727e610815c142e
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "415ee8c3c6c33440cc816d52a0a030b2",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "65398d5f78c1156e4f37b83b2db3909f",
+"flutter_bootstrap.js": "5249241ef5b2d70da453f763d9b58055",
 "icons/Icon-192.png": "e645fce23361863cc2a770b4297afb9e",
 "icons/Icon-512.png": "d6c58a03707deec6470d50d57907b86c",
 "icons/Icon-maskable-192.png": "e645fce23361863cc2a770b4297afb9e",
 "icons/Icon-maskable-512.png": "d6c58a03707deec6470d50d57907b86c",
-"index.html": "aed319983749ce40dbedc88e9cc67ff2",
-"/": "aed319983749ce40dbedc88e9cc67ff2",
-"main.dart.js": "4c3be8921e1d2fa8f6b63618170c025e",
+"index.html": "294a994c364f80abd80fb0b8322c03ff",
+"/": "294a994c364f80abd80fb0b8322c03ff",
+"main.dart.js": "bd9cc4c7901ba80939e996709fdb539b",
 "manifest.json": "7228b3921efebef164f6a27afcac55cc",
-"version.json": "482208b500828db28c3ab8aa769ef5c5"};
+"version.json": "eb31b2ae69b4de318ca7d9ba5ac7bb2b"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
